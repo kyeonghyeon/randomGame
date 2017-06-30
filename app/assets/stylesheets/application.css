@@ -1,0 +1,38 @@
+
+.contents {
+    margin: 0px auto;
+    padding: 10px;
+    width: 50%;
+    font-family: 'Jeju Gothic', serif;
+}
+
+nav {
+    display: inline;
+    text-align: center;
+}
+
+table td {
+    padding: 5px;
+}
+
+.submit {
+    padding-top: 20px;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+}
+
+.result {
+    margin: 0px auto;
+    padding: 10px;
+    width: 30%;
+    line-height: 4rem;
+    font-family: 'Jeju Gothic', serif;
+    font-size: 150%;
+}
+
+.forms {
+    text-align: center;
+}

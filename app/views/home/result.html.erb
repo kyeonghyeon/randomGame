@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Random Game</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type='text/css' href="//fonts.googleapis.com/earlyaccess/jejugothic.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  
+  <body>
+    <div class="result">
+      <header>
+        <h1>결과입니다.</h1>
+      </header>
+      <div class="you">
+          <%= @names[4] %>님의 친구들<br>
+      </div>
+      <div class="friends">
+        <%= @names[0] %>은 당신에게 <%= @result[0] %>입니다. <br>
+        <%= @names[1] %>은 당신에게 <%= @result[1] %>입니다. <br>
+        <%= @names[2] %>은 당신에게 <%= @result[2] %>입니다. <br>
+        <%= @names[3] %>은 당신에게 <%= @result[3] %>입니다. <br>
+        <%= @names[5] %>은 당신에게 <%= @result[4] %>입니다. <br>
+        <%= @names[6] %>은 당신에게 <%= @result[5] %>입니다. <br>
+        <%= @names[7] %>은 당신에게 <%= @result[6] %>입니다. <br>
+        <%= @names[8] %>은 당신에게 <%= @result[7] %>입니다. <br>
+      </div>
+    </div>
+</body>

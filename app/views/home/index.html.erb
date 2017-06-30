@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random Game</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type='text/css' href="//fonts.googleapis.com/earlyaccess/jejugothic.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  
+  <body>
+    
+    <div class="contents">
+      <nav class="navbar">
+        <a class="logo" href="/"><%= image_tag 'friends.png', size: "220x150", alt: "logo"%></a>
+      </nav>
+      
+      <div class="forms">
+        <header>
+          <h1>당신은 그 사람과 어떤 사이?</h1>
+          <h3>중앙에 당신의 이름을 적고 나머지칸에 <br>
+          떠오르는 친구의 이름을 적으세요.</h3>
+        </header>
+        
+        <table style="width:50%" align="center" >
+          <form action="/home/result">
+            <tr>
+              <td><input type="text" name="names[]" placeholder="친구의 이름"></td>
+              <td><input type="text" name="names[]" placeholder="친구의 이름"></td> 
+              <td><input type="text" name="names[]" placeholder="친구의 이름"></td>
+            </tr>
+            <tr>
+              <td><input type="text" name="names[]" placeholder="친구의 이름"></td>
+              <td><input type="text" name="names[]" placeholder="당신의 이름"></td> 
+              <td><input type="text" name="names[]" placeholder="친구의 이름"></td>
+            </tr>
+            <tr>
+              <td><input type="text" name="names[]" placeholder="친구의 이름"></td>
+              <td><input type="text" name="names[]" placeholder="친구의 이름"></td> 
+              <td><input type="text" name="names[]" placeholder="친구의 이름"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td class="submit"><span><input type="submit" value="제출"></span></td>
+              <td></td>
+            </tr>
+          </form>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
